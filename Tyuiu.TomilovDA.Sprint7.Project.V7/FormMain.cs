@@ -85,7 +85,7 @@ namespace Tyuiu.TomilovDA.Sprint7.Project.V7
                     {
                         for (int i = 0; i < row.Cells.Count; i++)
                         {
-                            if (row.Cells[i].Value != null && row.Cells[i].Value.ToString().Contains(searchValue, StringComparison.OrdinalIgnoreCase))
+                            if (row.Cells[i].Value != null && row.Cells[i].Value.ToString().Contains(searchValue))
                             {
                                 row.Cells[i].Style.BackColor = Color.Yellow;
                             }
@@ -142,11 +142,6 @@ namespace Tyuiu.TomilovDA.Sprint7.Project.V7
             throw new Exception("¬ведЄн неверный тип данных.");
         }
 
-        private void dataGridViewApartments_TDA_CellEndEdit(object sender, DataGridViewCellEventArgs e)
-        {
-
-
-        }
 
         private void dataGridViewApartments_TDA_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
@@ -218,15 +213,6 @@ namespace Tyuiu.TomilovDA.Sprint7.Project.V7
         }
 
 
-        private void groupBoxGrid_TDA_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelDeleteRows_TDA_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void buttonDeleteRows_TDA_Click(object sender, EventArgs e)
         {
@@ -345,10 +331,6 @@ namespace Tyuiu.TomilovDA.Sprint7.Project.V7
             }
         }
 
-        private void labelCount_TDA_MouseHover(object sender, EventArgs e)
-        {
-
-        }
 
         private void labelCount_TDA_Click(object sender, EventArgs e)
         {

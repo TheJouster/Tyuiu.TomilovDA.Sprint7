@@ -35,20 +35,22 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(15, 11);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(780, 360);
+            label1.Size = new Size(989, 480);
             label1.TabIndex = 0;
             label1.Text = resources.GetString("label1.Text");
             // 
             // FormGuide
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 386);
+            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleMode = AutoScaleMode.Dpi;
+            ClientSize = new Size(998, 503);
             Controls.Add(label1);
-            MaximumSize = new Size(816, 425);
-            MinimumSize = new Size(816, 425);
+            Margin = new Padding(4, 4, 4, 4);
+            MaximumSize = new Size(1016, 550);
+            MinimumSize = new Size(1016, 550);
             Name = "FormGuide";
             Text = "Справка";
             ResumeLayout(false);

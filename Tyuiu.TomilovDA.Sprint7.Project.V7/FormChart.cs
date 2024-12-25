@@ -44,9 +44,5 @@ namespace Tyuiu.TomilovDA.Sprint7.Project.V7
             labelNoDebtPercent_TDA.Text = $"Не должники (%): {noDebtPercentage}%";
         }
 
-        private void labelNoDebtPercent_TDA_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

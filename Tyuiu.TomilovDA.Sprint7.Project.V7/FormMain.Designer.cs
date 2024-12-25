@@ -77,7 +77,6 @@
             labelDeleteRows_TDA.Text = "Удалить строку";
             labelDeleteRows_TDA.TextAlign = ContentAlignment.MiddleCenter;
             toolTipMain_TDA.SetToolTip(labelDeleteRows_TDA, "Удалить выделенные строки");
-            labelDeleteRows_TDA.Click += labelDeleteRows_TDA_Click;
             // 
             // buttonDeleteRows_TDA
             // 
@@ -122,7 +121,7 @@
             // ToolStripMenuItemCreate_TDA
             // 
             ToolStripMenuItemCreate_TDA.Name = "ToolStripMenuItemCreate_TDA";
-            ToolStripMenuItemCreate_TDA.Size = new Size(133, 22);
+            ToolStripMenuItemCreate_TDA.Size = new Size(132, 22);
             ToolStripMenuItemCreate_TDA.Text = "Создать";
             ToolStripMenuItemCreate_TDA.ToolTipText = "Создать новую таблицу";
             ToolStripMenuItemCreate_TDA.Click += создатьToolStripMenuItem_Click;
@@ -130,7 +129,7 @@
             // toolStripMenuItemOpenFile_TDA
             // 
             toolStripMenuItemOpenFile_TDA.Name = "toolStripMenuItemOpenFile_TDA";
-            toolStripMenuItemOpenFile_TDA.Size = new Size(133, 22);
+            toolStripMenuItemOpenFile_TDA.Size = new Size(132, 22);
             toolStripMenuItemOpenFile_TDA.Text = "Открыть";
             toolStripMenuItemOpenFile_TDA.ToolTipText = "Выберите .csv файл таблицы";
             toolStripMenuItemOpenFile_TDA.Click += toolStripMenuItemOpenFile_TDA_Click;
@@ -138,7 +137,7 @@
             // ToolStripMenuItemSave_TDA
             // 
             ToolStripMenuItemSave_TDA.Name = "ToolStripMenuItemSave_TDA";
-            ToolStripMenuItemSave_TDA.Size = new Size(133, 22);
+            ToolStripMenuItemSave_TDA.Size = new Size(132, 22);
             ToolStripMenuItemSave_TDA.Text = "Сохранить";
             ToolStripMenuItemSave_TDA.Click += ToolStripMenuItemSave_TDA_Click;
             // 
@@ -167,7 +166,6 @@
             groupBoxGrid_TDA.TabIndex = 0;
             groupBoxGrid_TDA.TabStop = false;
             groupBoxGrid_TDA.Text = "Квартиры";
-            groupBoxGrid_TDA.Enter += groupBoxGrid_TDA_Enter;
             // 
             // dataGridViewApartments_TDA
             // 
@@ -181,7 +179,6 @@
             dataGridViewApartments_TDA.RowHeadersVisible = false;
             dataGridViewApartments_TDA.Size = new Size(1117, 463);
             dataGridViewApartments_TDA.TabIndex = 0;
-            dataGridViewApartments_TDA.CellEndEdit += dataGridViewApartments_TDA_CellEndEdit;
             dataGridViewApartments_TDA.CellValidating += dataGridViewApartments_TDA_CellValidating;
             dataGridViewApartments_TDA.DataError += dataGridViewApartments_TDA_DataError;
             // 
@@ -319,12 +316,11 @@
             labelCount_TDA.TabIndex = 8;
             labelCount_TDA.Text = "Количество должников:";
             labelCount_TDA.Click += labelCount_TDA_Click;
-            labelCount_TDA.MouseHover += labelCount_TDA_MouseHover;
             // 
             // FormMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             ClientSize = new Size(1123, 626);
             Controls.Add(panelGrid_TDA);
             Controls.Add(panelButtons_TDA);

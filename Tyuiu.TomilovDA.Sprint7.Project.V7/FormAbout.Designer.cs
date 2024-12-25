@@ -37,7 +37,7 @@
             // 
             // pictureBoxIcon_TDA
             // 
-            pictureBoxIcon_TDA.Image = Project.V7.Properties.Resources._4kava;
+            pictureBoxIcon_TDA.Image = Properties.Resources._4kava;
             pictureBoxIcon_TDA.Location = new Point(12, 13);
             pictureBoxIcon_TDA.Name = "pictureBoxIcon_TDA";
             pictureBoxIcon_TDA.Size = new Size(180, 180);
@@ -60,14 +60,14 @@
             labelAbout_TDA.AutoSize = true;
             labelAbout_TDA.Location = new Point(203, 13);
             labelAbout_TDA.Name = "labelAbout_TDA";
-            labelAbout_TDA.Size = new Size(303, 135);
+            labelAbout_TDA.Size = new Size(302, 135);
             labelAbout_TDA.TabIndex = 3;
             labelAbout_TDA.Text = resources.GetString("labelAbout_TDA.Text");
             // 
             // FormAbout
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             ClientSize = new Size(518, 204);
             Controls.Add(labelAbout_TDA);
             Controls.Add(buttonOK_TDA);
