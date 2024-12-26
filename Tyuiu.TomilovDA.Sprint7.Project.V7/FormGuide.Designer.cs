@@ -46,11 +46,11 @@
             // 
             AutoScaleDimensions = new SizeF(120F, 120F);
             AutoScaleMode = AutoScaleMode.Dpi;
-            ClientSize = new Size(998, 503);
+            ClientSize = new Size(1032, 503);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
-            MaximumSize = new Size(1016, 550);
-            MinimumSize = new Size(1016, 550);
+            Margin = new Padding(4);
+            MaximumSize = new Size(1050, 550);
+            MinimumSize = new Size(1050, 550);
             Name = "FormGuide";
             Text = "Справка";
             ResumeLayout(false);

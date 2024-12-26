@@ -85,7 +85,7 @@ namespace Tyuiu.TomilovDA.Sprint7.Project.V7
                     {
                         for (int i = 0; i < row.Cells.Count; i++)
                         {
-                            if (row.Cells[i].Value != null && row.Cells[i].Value.ToString().Contains(searchValue))
+                            if (row.Cells[i].Value != null && row.Cells[i].Value.ToString().Contains(searchValue,StringComparison.InvariantCultureIgnoreCase))
                             {
                                 row.Cells[i].Style.BackColor = Color.Yellow;
                             }
